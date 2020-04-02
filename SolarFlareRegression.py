@@ -1,4 +1,4 @@
-# Data Preprocessing Template
+# Solar Flare Regression - Random Forrest Approach
 
 # Importing the libraries
 import numpy as np
@@ -56,18 +56,3 @@ reportX = pd.DataFrame (reportX, columns=['Expected', 'Predicted'])
 print(classification_report(reportC['Expected'], reportC['Predicted']))
 print(classification_report(reportM['Expected'], reportC['Predicted']))
 print(classification_report(reportX['Expected'], reportC['Predicted']))
-
-
-#print(y_predC)
-#print(y_testC)
-# Feature Scaling
-"""from sklearn.preprocessing import StandardScaler
-sc_X = StandardScaler()
-X_train = sc_X.fit_transform(X_train)
-X_test = sc_X.transform(X_test)
-sc_y = StandardScaler()
-y_train = sc_y.fit_transform(y_train.reshape(-1,1))"""
-
-#print(y_testC)
-#print(y_testM)
-#print(y_testX)

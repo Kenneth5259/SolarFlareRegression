@@ -1,0 +1,7 @@
+This project is an attempt to create a regression model 
+for counting the 3 types of solar flares described in flare.names
+
+The current approach uses random forest to create the model 
+and currently has an accuracy between 75%-83% depending on 
+the type of solar flare. Each type has its own model under
+the assumption that they are independent
